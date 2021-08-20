@@ -8,11 +8,12 @@ const Home = () => {
       <div id="home"></div>
       <div className="homeImage">
         <div className="homeTitle">
-          <h1>Hello I am Cynthia. A Fullstack Developer and Linguist</h1>
-          <img
+        <img
             src={Image}
             alt="selfie"
           />
+          <h1>Hello I am Cynthia. A Fullstack Developer and Linguist</h1>
+          <h2>Welcome to my Portfolio! Have fun Exploring!</h2>
         </div>
       </div>
     </>
