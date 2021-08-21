@@ -35,7 +35,7 @@ const NavbarReact = () => {
     >
       <Container>
         <Navbar.Brand href="/">
-         Cynthia Varelas
+         Cynthia Varelas<span role="img" aria-label="seedling">🌱</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

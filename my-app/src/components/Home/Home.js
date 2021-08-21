@@ -1,22 +1,39 @@
 import React from "react";
+import {Container, Row, Col} from "react-bootstrap";
 import './Home.css'
 import Image from "../../assets/IMG_9921.JPG";
 
 const Home = () => {
   return (
-    <>
-      <div id="home"></div>
-      <div className="homeImage">
-        <div className="homeTitle">
-        <img
+    <section>
+      <Container fluid className="home-section" id="home">
+        <Container className="home-content">
+          <Row>
+            <Col md={7} className="home-header">
+              <h1 style={{ paddingBottom: 15 }} className="heading">
+                Hello there,
+              </h1>
+
+              <h1 className="heading-name">
+                I'm <strong className="main-name"> Cynthia Varelas </strong>
+              </h1>
+
+              <div style={{ padding: 50, textAlign: "left" }}>
+                Welcome To My Portfolio! Hope You Have Fun Exploring And Get To Know A Bit About Me!
+              </div>
+            </Col>
+
+            <Col md={5} style={{ paddingBottom: 20 }} >
+            <img
             src={Image}
             alt="selfie"
+            className="image"
           />
-          <h1>Hello I am Cynthia. A Fullstack Developer and Linguist</h1>
-          <h2>Welcome to my Portfolio! Have fun Exploring!</h2>
-        </div>
-      </div>
-    </>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    </section>
   );
 };
 
