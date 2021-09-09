@@ -1,0 +1,50 @@
+.experience-section {
+    position:  relative !important;
+    padding-top: 110px  !important;
+    padding-bottom: 30px !important;
+    color: white  !important;
+    background-image: url('scott-webb-eA2z1JSzZFI-unsplash.jpg');
+    background-position: bottom left;
+}
+
+.experience {
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+.exp-left {
+    padding-right: 80px !important;
+}
+
+.educ-right {
+    padding-left: 80px !important;
+}
+
+.experience .exp-title {
+    font-size: 2em;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.experience .content-item {
+    padding: 0 0 10px 25px;
+    margin-top: -2px;
+    border-left: -2px solid #c2b18a ;
+}
+
+.experience .content-item .exp-title {
+    line-height: 18px;
+    font-size: 0.9em;
+    background: #c2b18a;
+    padding: 8px 15px;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.resume .content-item ul {
+    padding-left: 20px;
+    text-align: justify;
+}

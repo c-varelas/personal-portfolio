@@ -2,16 +2,17 @@ import React from 'react';
 import Content from './Contents'
 import {Container, Row, Col, Button} from 'react-bootstrap'
 import {HiDocumentDownload} from 'react-icons/hi'
+import './Resume.css'
 
 const Resume = () => {
     return (
-        <Container>
+        <Container fluid className="experience-section">
             <Row className="experience">
                 <Col md={6} className="exp-left">
                     <h3 className="exp-title">Experience</h3>
              
                 <Content
-                title="Special Education Paraeducator"
+                title="Special Education Paraeducator - Lompoc Unified School District"
                 date="Jun 2021 - Current"
                 content={[
                     "Work in a 1:1 and group setting to support teachers by preparing and assigning lectures to students remotely and in-person. ",
@@ -20,15 +21,15 @@ const Resume = () => {
                 ]}
                 />
                 <Content
-                title="Special Education Paraeducator"
-                date="Oct 2020 - Jun 2021"
+                title="Special Education Paraeducator - Maxim Healthcare Services"
+                date=" Oct 2020 - Jun 2021"
                 content={[
                     "Worked in a 1:1 and group setting to support teachers by preparing and assigning lectures to students remotely.",
                     "Managed an online class of 12-15 students with guidance through difficult assignments and software programs."
                 ]}
                 />
                 <Content
-                title="General Technician"
+                title="General Technician - City of Lompoc"
                 date="Jun 2020 - Jul 2020"
                 content={[
                     "Performed data entry and collected information for Community and Development Department that was then used to direct low-income families to financial support services.",
