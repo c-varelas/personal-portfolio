@@ -9,15 +9,13 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
+
     return (
         <Container fluid className="footer">
           <Row>
             <Col md="4" className="footer-desc">
               <h3>Personal Portfolio Developed and Designed by Cynthia Varelas</h3>
             </Col>
-            <Col md="4" className="footer-copywright">
-          <h3>Copyright © 2021 Cynthia Varelas</h3>
-        </Col>
             <Col md="4" className="footer-body">
               <ul className="footer-icons">
                 <li className="social-icons">
@@ -32,7 +30,7 @@ function Footer() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/cynthia-varelas-83a1801a2/"
+                    href="https://www.linkedin.com/in/cynthiavarelas/"
                     style={{ color: "white" }}
                     target="_blank" 
                     rel="noopener noreferrer"

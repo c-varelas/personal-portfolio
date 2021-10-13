@@ -2,6 +2,7 @@ import React from 'react';
 import Content from './Contents'
 import {Container, Row, Col, Button} from 'react-bootstrap'
 import {HiDocumentDownload} from 'react-icons/hi'
+import pdf from '../../assets/cvarelas.pdf'
 import './Resume.css'
 
 const Resume = () => {
@@ -63,6 +64,10 @@ const Resume = () => {
                  />
              </Col>
             </Row>
+            <Button variant="primary" href={pdf} target="_blank">
+                <HiDocumentDownload/>
+                    &nbsp;Download CV
+            </Button>
         </Container>
     )
 }

@@ -19,7 +19,7 @@ const Home = () => {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                Welcome To My Portfolio! Hope You Have Fun Exploring And Get To Know A Bit About Me!
+                Welcome To My Portfolio! I Hope You Enjoy Exploring My Page And Get To Know Bit About Who I Am.
               </div>
             </Col>
 

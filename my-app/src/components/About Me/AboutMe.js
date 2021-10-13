@@ -19,8 +19,11 @@ const About = () => {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Get To Know The <strong className="green">Developer</strong>
+              Linguist| <strong className="green">Developer|</strong> Educator
             </h1>
+            <h3 style={{fontSize: "1.5em", paddingBottom:"5px"}}>
+              From An Aspiring <strong className="green">Linguist</strong> To An Aspiring <strong className="green">Web Developer</strong>
+            </h3>
           <AboutMe/>
           </Col>
           <Col
@@ -35,7 +38,7 @@ const About = () => {
           </Col>
         </Row>
         <h1 className="project-heading">
-          My <strong className="green">Skillset </strong>
+          My <strong className="green">Skillset </strong> and <strong className="green">Technologies</strong> I Used:
         </h1>
         <MySkills/>
       </Container>

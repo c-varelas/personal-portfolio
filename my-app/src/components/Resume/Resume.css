@@ -48,3 +48,11 @@
     padding-left: 20px;
     text-align: justify;
 }
+
+/* Media Queries */
+@media(max-width: 767px) {
+    .exp-left {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+}

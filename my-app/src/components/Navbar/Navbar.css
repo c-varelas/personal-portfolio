@@ -10,7 +10,6 @@
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 2rem !important;
     font-size: 1.5rem !important;
-    color: blue;
   }
   
   .navbar-toggler {
@@ -22,7 +21,7 @@
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #406b4c  !important;
+    background-color: #0f323f !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -82,3 +81,22 @@
     padding: 0.8rem 1rem !important;
   }
   
+
+  /* Media Queries */
+  @media(max-width: 767px) {
+    .navbar {
+      padding: 1rem 2rem !important;
+      font-size: 1.4rem !important;
+      background-color: #406b4c !important;
+    }
+    .navbar-nav .nav-item a::after {
+      display: none !important
+
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding: 0.7rem 1rem !important;
+  }
+}

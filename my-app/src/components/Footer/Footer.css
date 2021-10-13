@@ -31,3 +31,12 @@
     padding-right: 15px;
     padding-left: 15px;
   }
+
+  @media (max-width: 767px) {
+      .footer-desc {
+          text-align: center !important;
+      }
+      .footer body {
+          text-align: center !important;
+      }
+  }

@@ -12,8 +12,8 @@ const Project = () => {
             <h1 className="project-heading">
                 Projects that I had <strong className="green">Built</strong>
             </h1>
-            <p style={{color:"#c2b18a"}}>
-                Here an assortments of projects I had built in the past. Enjoy!
+            <p className="project-p"  style={{color:"#c2b18a"}}>
+                Here an assortments of projects I had built in the past. Enjoy! (Currently Under Construction)
             </p>
             <Row style={{justifyContent: "center", paddingBottom:"10px"}}>
                 <Col md={4} className="project-card">

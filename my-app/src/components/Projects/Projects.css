@@ -6,4 +6,53 @@
     background-position: center right;
 }
 
+.project-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+}
+
+.project-content {
+    box-shadow: 4px 5px 4px 3px #406b4c !important;
+    border: 5px solid #c2b18a;
+    color: #c2b18a!important;
+    opacity: 0.8 !important;
+    height: 100% !important;;
+}
+
+.project-content:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 4px 5px 4px 3px #0f323f !important;
+  }
+
+  .project-heading {
+      color: #c2b18a !important;
+      font-size: 2.3em !important;
+      padding-top: 10px !important;
+  }
+
+  .project-p {
+      font-size: 20px;
+  }
+
+  .btn-primary {
+      color: white !important;
+      background-color: #406b4c !important;
+      border-color: #0f323f !important;
+  }
+
+  .btn-primary:hover {
+      color:#c2b18a !important;
+      background-color: #0f323f !important;
+      border-color: #406b4c !important;
+
+  }
+
+
+
+
+
 /*Will Finish Styling */

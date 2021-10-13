@@ -52,3 +52,17 @@
     color:#c2b18a !important;
     background-color: transparent !important;
   }
+
+
+  /* Media Queries */
+  @media(max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+    }
+  }
+
+  @media(max-width: 767px) {
+    .about-img {
+      padding-top: 0 !important;
+    }
+  }
